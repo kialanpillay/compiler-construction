@@ -1,0 +1,6 @@
+ply
+__pycache__
+*.zip
+*.txt
+parser.out
+parsetab.py
