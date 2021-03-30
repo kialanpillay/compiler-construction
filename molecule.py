@@ -74,7 +74,6 @@ parser = yacc.yacc(errorlog=yacc.NullLogger())
 
 for formula in data.splitlines():
     result = parser.parse(formula, debug=False)
-    print(result)
     if error:
         print("Error in formula")
     else:

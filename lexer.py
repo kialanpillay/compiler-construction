@@ -18,6 +18,9 @@ def t_newline(t):
 def t_error(t):
      if __name__ == "__main__":
         print("Illegal character '%s'" % t.value[0])
+     else:
+        print("Error in input")
+        exit()
      t.lexer.skip(1)
 
 lexer = lex.lex()
